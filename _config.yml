@@ -9,6 +9,9 @@ logo: logo.png
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
+  allow_errors: true
+  nb_merge_streams: true
+  nb_execution_show_tb: True
 
 # Define the name of the latex output file for PDF builds
 latex:
