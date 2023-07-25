@@ -1,8 +1,15 @@
-# Here's my smaple title
+# Hello jupyter website world
 
-This is some sample text.
+## Here's my first code cell 
+```{code-cell}
+---
+tags: [raises-exception]
+---
+n = 2
+for i in range(5):
+  n += 1
+```
 
-(section-label)=
 ## Here's my first section
 
 Here is a [reference to this intro](intro.md). Here is reference to [](section-label).
